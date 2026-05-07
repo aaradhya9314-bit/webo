@@ -5,6 +5,7 @@
   "description": "Express and MongoDB API for LuxeCart ecommerce.",
   "main": "src/server.js",
   "scripts": {
+    "build": "node -e \"console.log('No backend build step required')\"",
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
     "seed": "node src/seeder.js"
